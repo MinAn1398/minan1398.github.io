@@ -1,0 +1,205 @@
+/* ĐỊNH DẠNG CHUNG CHO TẤT CẢ */
+
+
+/* linear-gradient(90deg, #076585, #fff) */
+
+body {
+    font-family: 'Time news roman', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-image: url('../img/111.jpg');
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #c8232c
+}
+
+a:hover {
+    color: #c8232c;
+    text-decoration: underline;
+}
+
+
+/* KẾT THÚC ĐỊNH DẠNG */
+
+
+/* PHẦN CHỨA HEADER */
+
+header .brands {
+    padding: 1rem;
+    text-align: center;
+}
+
+header .brands nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+header .brands nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background: #0e2346;
+    margin-right: 10px;
+    line-height: 5px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px 17px 2px;
+    border-radius: 6px;
+    top: 7px;
+}
+
+header .brands nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 .25rem;
+    display: block
+}
+
+header .brands nav>ul>li>a.active {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header .brands nav>ul>li:hover>a {
+    color: #c8232c
+}
+
+header .brands nav>ul>li:hover>ul {
+    display: block
+}
+
+
+/* PHẦN CHỨA MENU PHỤ */
+
+header .brands nav>ul>li>ul {
+    background: #0e2346;
+    width: 93px;
+    left: 0;
+    padding: 0px 10px 0px 10px;
+    position: absolute;
+    top: 100%;
+    display: none;
+    z-index: 10;
+    border-radius: 4px
+}
+
+header .brands nav>ul>li>ul>li:hover a {
+    color: #c8232c;
+    font-size: 1rem;
+}
+
+header .brands nav>ul>li>ul>li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    line-height: 2.5rem;
+    white-space: nowrap;
+}
+
+
+/* KẾT THÚC PHẦN HEADER */
+
+
+/* PHẦN CHỨA NỘI DUNG CHÍNH */
+
+main {
+    padding: 2rem 2rem 3rem 2rem;
+    margin: 30px 20px 50px 20px;
+}
+
+#home-page .video {
+    text-align: center;
+    padding: 0px;
+    margin: 40px 0px 40px 0px;
+}
+
+.content h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Time news roman', Helvetica, Arial, sans-serif;
+}
+
+
+/* KẾT THÚC NỘI DUNG CHÍNH */
+
+
+/* PHẦN CHỨA FOOTER  */
+
+footer {
+    background: #2b292986;
+    padding: 3rem 1.5rem 2rem 3rem;
+    margin: 0px;
+    bottom: 0px;
+}
+
+footer .copyright {
+    font-size: .8rem;
+    text-align: center;
+    color: #B8B8B8;
+    padding-top: 1rem;
+    border-top: 1px solid #666b6b;
+    margin-top: 2rem;
+}
+
+footer .slogan {
+    float: left;
+    width: 30%;
+    color: #B8B8B8;
+    font-style: italic;
+}
+
+footer .rightmenu {
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+footer .rightmenu nav.link ul {
+    list-style-type: none;
+    padding: 0 1.5rem 0 0;
+    margin: 0
+}
+
+footer .rightmenu nav.link ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer .rightmenu nav.link ul li a {
+    text-decoration: none;
+    color: #B8B8B8
+}
+
+footer .rightmenu nav.link ul li:hover a {
+    text-decoration: underline;
+    color: #f5620d;
+}
+
+
+/* PHẦN MẠNG XÃ HỘI */
+
+footer .rightmenu nav.social ul {
+    list-style-type: none;
+    padding: 0rem 1.5rem 0rem 0rem;
+    margin: 20px 0px 0px 0px
+}
+
+footer .rightmenu nav.social ul li {
+    display: inline-block;
+    margin-left: .5rem;
+}
+
+
+/* KẾT THÚC FOOTER */

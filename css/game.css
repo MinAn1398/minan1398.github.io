@@ -1,0 +1,77 @@
+/* DÙNG CHUNG CHO GAME PAGE */
+#game .boxb {
+    background-color: lightblue;
+    width: 100%;
+}
+
+#game .boxb .content {   
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#game .boxb .content h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Time news roman', Helvetica, Arial, sans-serif;
+}
+
+#game .boxb .content p {
+    color: #7476E9;
+    text-align: center;
+    font-family: 'Time news roman', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    background-color: whitesmoke;
+    border: 0.5rem solid lightblue;
+    border-radius: 2rem;
+}
+
+#game .hinhanh img {
+    border: 0.2rem solid #7C7C7C;
+    border-radius: 0.4rem;
+    padding: 5px;
+    background: #fff;
+    margin: 2rem;
+}
+#game {
+    background-image: url(../img/game_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    margin: auto 33.333333%; 
+}
+footer .bottom nav.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    float: right;
+}
+
+footer .bottom nav.social ul li {
+    display: inline-block;
+    margin-left: .5em;
+}
+#game .boxc {
+    background-color: orangered;
+    opacity: 0.9;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+#game .boxc .word .pa {
+    font-size: 50px;
+    position: absolute;
+    top:6%;
+    left: 5% ;
+}
+#game .boxc .image {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+#game .boxc .word p {
+    position: absolute;
+    top:26%;
+    left: 5% ;
+    font-size: 2rem;
+    color: whitesmoke;
+}

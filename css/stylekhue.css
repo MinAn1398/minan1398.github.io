@@ -1,0 +1,165 @@
+/* ĐỊNH DẠNG CHUNG CHO TẤT CẢ */
+
+body {
+    font-family: 'Time news roman', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background: linear-gradient(90deg, #076585, #fff);
+}
+
+a {
+    color: #c8232c
+}
+
+a:hover {
+    color: #c8232c;
+    text-decoration: underline;
+}
+
+
+/* KẾT THÚC ĐỊNH DẠNG */
+
+
+/* PHẦN CHỨA HEADER */
+
+header .brands {
+    padding: 1rem;
+    text-align: center;
+}
+
+header .brands nav ul {
+    list-style-type: none;
+}
+
+header .brands nav>ul>li {
+    display: inline-block;
+    position: relative;
+    background: #0e2346;
+    margin-right: 10px;
+    line-height: 5px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px 17px 2px;
+    border-radius: 6px;
+    top: 7px;
+}
+
+header .brands nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 .25rem
+}
+
+header .brands nav>ul>li>a.active {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header .brands nav>ul>li:hover>a {
+    color: #c8232c
+}
+
+header .brands nav>ul>li:hover>ul {
+    display: block
+}
+
+
+/* PHẦN CHỨA MENU PHỤ */
+
+header .brands nav>ul>li>ul {
+    background: #0e2346;
+    width: 93px;
+    left: 0;
+    padding: 0px 10px 0px 10px;
+    position: absolute;
+    top: 100%;
+    display: none;
+    z-index: 10;
+    border-radius: 4px
+}
+
+header .brands nav>ul>li>ul>li:hover a {
+    color: #c8232c;
+    font-size: 1rem;
+}
+
+header .brands nav>ul>li>ul>li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.5rem;
+    white-space: nowrap;
+}
+
+
+/* KẾT THÚC PHẦN HEADER */
+
+
+/* PHẦN CHỨA NỘI DUNG CHÍNH */
+
+main {
+    padding: 3rem
+}
+
+#home-page .video {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+
+/* KẾT THÚC NỘI DUNG CHÍNH */
+
+
+/* PHẦN CHỨA FOOTER  */
+
+footer {
+    background: linear-gradient(90deg, #141e30, #243b55);
+    padding: 2rem 2rem 1.5rem 2rem
+}
+
+footer .copyright {
+    font-size: .8rem;
+    text-align: center;
+    color: #B8B8B8;
+    padding-top: 1rem;
+    border-top: 1px solid #666b6b;
+    margin-top: 2rem;
+}
+
+footer .slogan {
+    float: left;
+    width: 30%;
+    color: #B8B8B8;
+    font-style: italic;
+}
+
+footer .rightmenu {
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+footer .rightmenu nav.link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+footer .rightmenu nav.link ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer .rightmenu nav.link ul li a {
+    text-decoration: none;
+    color: #B8B8B8
+}
+
+footer .rightmenu nav.link ul li:hover a {
+    text-decoration: underline;
+    color: #c8232c;
+    font-size: 0.9rem;
+}
+
+
