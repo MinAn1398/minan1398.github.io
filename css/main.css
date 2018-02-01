@@ -4,15 +4,15 @@
 	2. NAVBAR
 	3. HIGHLIGHT 
 	4. INFO 
-	5. SPEAKERS
-	6. PROGRAM
+	5. style
+	6. service
 	7. DOWNLOAD
-	8. VENUE
+	8. address
 	9. FUNFACTS
-	10. REGISTER
+	10. pricelist
 	11. GALLERY
 	12. TESTIMONIAL
-	13. SPONSORS
+	13. partners
 	14. FOOTER
 	15. MISC.
  
@@ -275,7 +275,7 @@ only screen and (max-device-width: 768px) {
 
 /* SPEAKER */
 
-#speakers {
+#style {
     background: #f5f5f5;
     border-top: 1px solid #f0f0f0;
     padding: 70px 0 90px 0;
@@ -319,7 +319,7 @@ only screen and (max-device-width: 768px) {
     margin: 0;
 }
 
-#speakers .owl-buttons {
+#style .owl-buttons {
     position: absolute;
     font-size: 10px;
     right: 0;
@@ -413,34 +413,34 @@ only screen and (max-device-width: 768px) {
 }
 
 
-/* PROGRAM */
+/* service */
 
-#program {
+#service {
     color: #ffffff;
     background: #fac42b;
     padding: 70px 0 90px 0;
 }
 
-#program h4 {
+#service h4 {
     font-size: 17px;
     letter-spacing: 0;
 }
 
-#program .lead {
+#service .lead {
     color: #ffffff;
 }
 
-#program img {
+#service img {
     border: 2px solid #ffffff;
 }
 
-#program .nav-tabs {
+#service .nav-tabs {
     border-bottom: 1px solid #ffffff;
     margin-bottom: 20px;
     font-size: 19px;
 }
 
-#program .nav-tabs>li>a {
+#service .nav-tabs>li>a {
     color: #ffffff;
     padding: 10px 100px 10px 0;
     background: none;
@@ -448,45 +448,45 @@ only screen and (max-device-width: 768px) {
     cursor: default;
 }
 
-#program .nav-tabs>li.active>a {
+#service .nav-tabs>li.active>a {
     color: #262626;
     padding: 10px 50px 10px 0;
     border-bottom: 4px solid #ffffff;
     padding: 10px 100px 10px 0;
 }
 
-#program .nav-tabs>li>a:hover,
-#program .nav-tabs>li.active>a:hover {
+#service .nav-tabs>li>a:hover,
+#service .nav-tabs>li.active>a:hover {
     color: #262626;
 }
 
-#program .panel {
+#service .panel {
     background: transparent;
 }
 
-#program .panel-body {
+#service .panel-body {
     border-top: 1px solid #ffffff;
     padding: 20px 0;
 }
 
-#program .panel-default {
+#service .panel-default {
     border: none;
     border-bottom: 1px solid #ffffff;
     border-radius: 0px;
 }
 
-#program .panel-default>.panel-heading {
+#service .panel-default>.panel-heading {
     color: #333333;
     background: transparent;
     border-color: #ffffff;
     padding: 10px 0;
 }
 
-#program .panel-title {
+#service .panel-title {
     float: left;
 }
 
-#program .panel-title>a {
+#service .panel-title>a {
     color: #262626;
     text-decoration: none;
     -webkit-transition: all 0.1s;
@@ -494,11 +494,11 @@ only screen and (max-device-width: 768px) {
     transition: all 0.1s;
 }
 
-#program .panel-title>a:hover {
+#service .panel-title>a:hover {
     color: #ffffff;
 }
 
-#program .date {
+#service .date {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -508,7 +508,7 @@ only screen and (max-device-width: 768px) {
     line-height: 18px;
 }
 
-#program .speaker-name {
+#service .speaker-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     ;
@@ -516,31 +516,31 @@ only screen and (max-device-width: 768px) {
     letter-spacing: 1px;
 }
 
-#program .panel-body h4 {
+#service .panel-body h4 {
     color: #666666;
     font-size: 21px;
 }
 
-#program .panel-body p {
+#service .panel-body p {
     margin-right: 10px;
     display: inline-block;
 }
 
-#program .panel-body p span {
+#service .panel-body p span {
     color: #666666;
     display: inherit;
 }
 
-#program .about-speaker i {
+#service .about-speaker i {
     color: #262626;
 }
 
-#program .about-speaker a {
+#service .about-speaker a {
     color: #262626;
     text-decoration: none;
 }
 
-#program .about-speaker a:hover {
+#service .about-speaker a:hover {
     color: #000000;
     text-decoration: none;
 }
@@ -550,11 +550,11 @@ only screen and (max-device-width: 480px) {
     #myTab li {
         width: 100%;
     }
-    #program .panel-title {
+    #service .panel-title {
         display: block;
         float: none;
     }
-    #program .speaker-name {
+    #service .speaker-name {
         text-align: center;
         margin-top: 20px;
     }
@@ -578,15 +578,15 @@ only screen and (max-device-width: 480px) {
 }
 
 
-/* VENUE */
+/* address */
 
-#venue {
+#address {
     padding-top: 0;
     padding-bottom: 110px;
 }
 
-#venue .venue {
-    background-image: url(../img/bg-venue.png);
+#address .address {
+    background-image: url(../img/bg-address.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -598,19 +598,19 @@ only screen and (max-device-width: 480px) {
     width: 100%;
 }
 
-#venue .venue .venue-inner {
+#address .address .address-inner {
     color: #b0b0b0;
     background: rgba(0, 0, 0, 0.7);
     display: table-cell;
     vertical-align: middle;
 }
 
-.venue-inner h2 {
+.address-inner h2 {
     color: #b3b3b3;
     margin-top: 0;
 }
 
-#venue h2:after {
+#address h2:after {
     content: "";
     display: block;
     width: 60px;
@@ -620,11 +620,11 @@ only screen and (max-device-width: 480px) {
     margin-bottom: 15px;
 }
 
-#venue h3 {
+#address h3 {
     margin-top: 10px;
 }
 
-#venue h3:after {
+#address h3:after {
     content: "";
     display: block;
     width: 60px;
@@ -634,20 +634,20 @@ only screen and (max-device-width: 480px) {
     margin-bottom: 15px;
 }
 
-.venue-inner h4 {
+.address-inner h4 {
     color: #b3b3b3;
 }
 
-#venue i {
+#address i {
     color: #fac42b;
 }
 
-.venue-inner .lead {
+.address-inner .lead {
     /* color: #b0b0b0; */
     color: #8e8e8e
 }
 
-.venue-info {
+.address-info {
     margin-bottom: 45px;
 }
 
@@ -736,9 +736,9 @@ only screen and (max-device-width: 480px) {
 }
 
 
-/* REGISTER */
+/* pricelist */
 
-#register {
+#pricelist {
     background: #f5f5f5;
     border-bottom: 1px solid #f0f0f0;
     padding: 70px 0 90px 0;
@@ -815,18 +815,18 @@ only screen and (max-device-width: 480px) {
 }
 
 
-/* register form */
+/* pricelist form */
 
-#register-form {
+#pricelist-form {
     padding: 25px;
     background: #ffffff;
 }
 
-#register-form h2 {
+#pricelist-form h2 {
     margin-bottom: 15px;
 }
 
-.register-form {
+.pricelist-form {
     margin-top: 20px;
 }
 
@@ -886,9 +886,9 @@ only screen and (max-device-width: 480px) {
 }
 
 
-/* SPONSORS */
+/* partners */
 
-#sponsors {
+#partners {
     margin: 30px 0;
     padding: 70px 0 90px 0;
 }
