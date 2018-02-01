@@ -1,1 +1,0 @@
-# minanfotos.github.io
